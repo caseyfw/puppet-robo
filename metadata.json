@@ -37,12 +37,12 @@
 
   ],
   "checksums": {
-    "LICENSE": "TODO",
-    "README.md": "TODO",
-    "Rakefile": "TODO",
-    "manifests/init.pp": "TODO",
-    "manifests/params.pp": "TODO",
-    "spec/classes/robo_spec.rb": "TODO",
-    "spec/spec_helper.rb": "TODO"
+    "LICENSE": "7e19735c7c0994bc4dd2ed7f96922148",
+    "README.md": "e2a68dfcde7bba04894ab6d2880fed8e",
+    "Rakefile": "a1a87b266213b03b33f5e006d4df7925",
+    "manifests/init.pp": "2dc3600b3831558ecfa65e296eaa7f5b",
+    "manifests/params.pp": "26bc1bbbbd4603d2b3fdbbe3a2477e32",
+    "spec/classes/robo_spec.rb": "ad67397bcfa278b2943b85f7e3aca2ae",
+    "spec/spec_helper.rb": "0db89c9a486df193c0e40095422e19dc"
   }
 }
