@@ -1,6 +1,6 @@
 {
   "name": "caseyfw-robo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Casey Fulton",
   "license": "MIT",
   "summary": "This module installs Robo, a task runner for PHP.",
