@@ -4,7 +4,7 @@ describe 'robo', :type => :class do
   let(:title) { 'robo' }
 
   it { should contain_wget__fetch('robo-install') \
-    .with_source('https://robo.li/robo.phar') \
+    .with_source('http://robo.li/robo.phar') \
     .with_execuser('root') \
     .with_destination('/usr/local/bin/robo')
   }
@@ -19,7 +19,7 @@ describe 'robo', :type => :class do
     let(:params) {{ :target_dir => '/usr/bin' }}
 
     it { should contain_wget__fetch('robo-install') \
-      .with_source('https://robo.li/robo.phar') \
+      .with_source('http://robo.li/robo.phar') \
       .with_execuser('root') \
       .with_destination('/usr/bin/robo')
     }
@@ -35,7 +35,7 @@ describe 'robo', :type => :class do
     let(:params) {{ :command_name => 'r' }}
 
     it { should contain_wget__fetch('robo-install') \
-      .with_source('https://robo.li/robo.phar') \
+      .with_source('http://robo.li/robo.phar') \
       .with_execuser('root') \
       .with_destination('/usr/local/bin/r')
     }
@@ -51,7 +51,7 @@ describe 'robo', :type => :class do
     let(:params) {{ :user => 'casey' }}
 
     it { should contain_wget__fetch('robo-install') \
-      .with_source('https://robo.li/robo.phar') \
+      .with_source('http://robo.li/robo.phar') \
       .with_execuser('casey') \
       .with_destination('/usr/local/bin/robo')
     }
